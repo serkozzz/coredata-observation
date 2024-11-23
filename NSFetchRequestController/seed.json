@@ -1,0 +1,302 @@
+[
+    {
+        "name": "AC/DC",
+        "genre": "Rock",
+        "creationYear": 1973,
+        "country": "Australia"
+    },
+    {
+        "name": "The Beatles",
+        "genre": "Rock",
+        "creationYear": 1960,
+        "country": "United Kingdom"
+    },
+    {
+        "name": "Nirvana",
+        "genre": "Grunge",
+        "creationYear": 1987,
+        "country": "United States"
+    },
+    {
+        "name": "Metallica",
+        "genre": "Metal",
+        "creationYear": 1981,
+        "country": "United States"
+    },
+    {
+        "name": "The Rolling Stones",
+        "genre": "Rock",
+        "creationYear": 1962,
+        "country": "United Kingdom"
+    },
+    {
+        "name": "Pink Floyd",
+        "genre": "Progressive Rock",
+        "creationYear": 1965,
+        "country": "United Kingdom"
+    },
+    {
+        "name": "Led Zeppelin",
+        "genre": "Hard Rock",
+        "creationYear": 1968,
+        "country": "United Kingdom"
+    },
+    {
+        "name": "Queen",
+        "genre": "Rock",
+        "creationYear": 1970,
+        "country": "United Kingdom"
+    },
+    {
+        "name": "The Clash",
+        "genre": "Punk Rock",
+        "creationYear": 1976,
+        "country": "United Kingdom"
+    },
+    {
+        "name": "Green Day",
+        "genre": "Punk Rock",
+        "creationYear": 1987,
+        "country": "United States"
+    },
+    {
+        "name": "Foo Fighters",
+        "genre": "Alternative Rock",
+        "creationYear": 1994,
+        "country": "United States"
+    },
+    {
+        "name": "Linkin Park",
+        "genre": "Nu Metal",
+        "creationYear": 1996,
+        "country": "United States"
+    },
+    {
+        "name": "Radiohead",
+        "genre": "Alternative Rock",
+        "creationYear": 1985,
+        "country": "United Kingdom"
+    },
+    {
+        "name": "Pearl Jam",
+        "genre": "Grunge",
+        "creationYear": 1990,
+        "country": "United States"
+    },
+    {
+        "name": "Red Hot Chili Peppers",
+        "genre": "Funk Rock",
+        "creationYear": 1983,
+        "country": "United States"
+    },
+    {
+        "name": "The Who",
+        "genre": "Rock",
+        "creationYear": 1964,
+        "country": "United Kingdom"
+    },
+    {
+        "name": "Ramones",
+        "genre": "Punk Rock",
+        "creationYear": 1974,
+        "country": "United States"
+    },
+    {
+        "name": "Guns N' Roses",
+        "genre": "Hard Rock",
+        "creationYear": 1985,
+        "country": "United States"
+    },
+    {
+        "name": "Black Sabbath",
+        "genre": "Heavy Metal",
+        "creationYear": 1968,
+        "country": "United Kingdom"
+    },
+    {
+        "name": "Deep Purple",
+        "genre": "Hard Rock",
+        "creationYear": 1968,
+        "country": "United Kingdom"
+    },
+    {
+        "name": "Iron Maiden",
+        "genre": "Heavy Metal",
+        "creationYear": 1975,
+        "country": "United Kingdom"
+    },
+    {
+        "name": "Aerosmith",
+        "genre": "Hard Rock",
+        "creationYear": 1970,
+        "country": "United States"
+    },
+    {
+        "name": "Blink-182",
+        "genre": "Pop Punk",
+        "creationYear": 1992,
+        "country": "United States"
+    },
+    {
+        "name": "Kiss",
+        "genre": "Hard Rock",
+        "creationYear": 1973,
+        "country": "United States"
+    },
+    {
+        "name": "The Strokes",
+        "genre": "Indie Rock",
+        "creationYear": 1998,
+        "country": "United States"
+    },
+    {
+        "name": "Coldplay",
+        "genre": "Alternative Rock",
+        "creationYear": 1996,
+        "country": "United Kingdom"
+    },
+    {
+        "name": "The Doors",
+        "genre": "Psychedelic Rock",
+        "creationYear": 1965,
+        "country": "United States"
+    },
+    {
+        "name": "Oasis",
+        "genre": "Britpop",
+        "creationYear": 1991,
+        "country": "United Kingdom"
+    },
+    {
+        "name": "The Cure",
+        "genre": "Gothic Rock",
+        "creationYear": 1978,
+        "country": "United Kingdom"
+    },
+    {
+        "name": "Alice in Chains",
+        "genre": "Grunge",
+        "creationYear": 1987,
+        "country": "United States"
+    },
+    {
+        "name": "The Smashing Pumpkins",
+        "genre": "Alternative Rock",
+        "creationYear": 1988,
+        "country": "United States"
+    },
+    {
+        "name": "Motörhead",
+        "genre": "Heavy Metal",
+        "creationYear": 1975,
+        "country": "United Kingdom"
+    },
+    {
+        "name": "Sex Pistols",
+        "genre": "Punk Rock",
+        "creationYear": 1975,
+        "country": "United Kingdom"
+    },
+    {
+        "name": "Rage Against the Machine",
+        "genre": "Rap Metal",
+        "creationYear": 1991,
+        "country": "United States"
+    },
+    {
+        "name": "Muse",
+        "genre": "Alternative Rock",
+        "creationYear": 1994,
+        "country": "United Kingdom"
+    },
+    {
+        "name": "The Kinks",
+        "genre": "Rock",
+        "creationYear": 1964,
+        "country": "United Kingdom"
+    },
+    {
+        "name": "Def Leppard",
+        "genre": "Hard Rock",
+        "creationYear": 1977,
+        "country": "United Kingdom"
+    },
+    {
+        "name": "Beastie Boys",
+        "genre": "Hip Hop",
+        "creationYear": 1979,
+        "country": "United States"
+    },
+    {
+        "name": "ZZ Top",
+        "genre": "Blues Rock",
+        "creationYear": 1969,
+        "country": "United States"
+    },
+    {
+        "name": "Van Halen",
+        "genre": "Hard Rock",
+        "creationYear": 1972,
+        "country": "United States"
+    },
+    {
+        "name": "Fleetwood Mac",
+        "genre": "Rock",
+        "creationYear": 1967,
+        "country": "United Kingdom"
+    },
+    {
+        "name": "Scorpions",
+        "genre": "Hard Rock",
+        "creationYear": 1965,
+        "country": "Germany"
+    },
+    {
+        "name": "Slayer",
+        "genre": "Thrash Metal",
+        "creationYear": 1981,
+        "country": "United States"
+    },
+    {
+        "name": "Genesis",
+        "genre": "Progressive Rock",
+        "creationYear": 1967,
+        "country": "United Kingdom"
+    },
+    {
+        "name": "Arctic Monkeys",
+        "genre": "Indie Rock",
+        "creationYear": 2002,
+        "country": "United Kingdom"
+    },
+    {
+        "name": "Blur",
+        "genre": "Britpop",
+        "creationYear": 1988,
+        "country": "United Kingdom"
+    },
+    {
+        "name": "Eagles",
+        "genre": "Rock",
+        "creationYear": 1971,
+        "country": "United States"
+    },
+    {
+        "name": "The Police",
+        "genre": "Rock",
+        "creationYear": 1977,
+        "country": "United Kingdom"
+    },
+    {
+        "name": "Cream",
+        "genre": "Blues Rock",
+        "creationYear": 1966,
+        "country": "United Kingdom"
+    },
+    {
+        "name": "Soundgarden",
+        "genre": "Grunge",
+        "creationYear": 1984,
+        "country": "United States"
+    }
+]
