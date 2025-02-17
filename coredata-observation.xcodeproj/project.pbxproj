@@ -10,12 +10,12 @@
 		9D0B3DBC2CF0E63C0095432A /* BandDB+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0B3DBA2CF0E63C0095432A /* BandDB+CoreDataClass.swift */; };
 		9D0B3DBD2CF0E63C0095432A /* BandDB+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0B3DBB2CF0E63C0095432A /* BandDB+CoreDataProperties.swift */; };
 		9D0B3DBF2CF0EB440095432A /* BandsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0B3DBE2CF0EB440095432A /* BandsTableViewController.swift */; };
-		9D0B3DC12CF1C6FE0095432A /* BandCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0B3DC02CF1C6FE0095432A /* BandCart.swift */; };
-		9D0B3DC52CF1C72B0095432A /* BandCart.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D0B3DC42CF1C72B0095432A /* BandCart.xib */; };
-		9D0B3DC72CF267810095432A /* EditBandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0B3DC62CF267810095432A /* EditBandViewController.swift */; };
+		9D0B3DC12CF1C6FE0095432A /* BandCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0B3DC02CF1C6FE0095432A /* BandCardView.swift */; };
+		9D0B3DC52CF1C72B0095432A /* BandCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D0B3DC42CF1C72B0095432A /* BandCardView.xib */; };
+		9D0B3DC72CF267810095432A /* OneCardEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0B3DC62CF267810095432A /* OneCardEditorViewController.swift */; };
 		9D7194F52CF0767E00F63988 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7194F42CF0767E00F63988 /* AppDelegate.swift */; };
 		9D7194F72CF0767E00F63988 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7194F62CF0767E00F63988 /* SceneDelegate.swift */; };
-		9D7194F92CF0767E00F63988 /* NoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7194F82CF0767E00F63988 /* NoTableViewController.swift */; };
+		9D7194F92CF0767E00F63988 /* OneCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7194F82CF0767E00F63988 /* OneCardViewController.swift */; };
 		9D7194FC2CF0767E00F63988 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D7194FA2CF0767E00F63988 /* Main.storyboard */; };
 		9D7194FE2CF0768100F63988 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D7194FD2CF0768100F63988 /* Assets.xcassets */; };
 		9D7195012CF0768100F63988 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D7194FF2CF0768100F63988 /* LaunchScreen.storyboard */; };
@@ -28,13 +28,13 @@
 		9D0B3DBA2CF0E63C0095432A /* BandDB+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BandDB+CoreDataClass.swift"; sourceTree = "<group>"; };
 		9D0B3DBB2CF0E63C0095432A /* BandDB+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BandDB+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		9D0B3DBE2CF0EB440095432A /* BandsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandsTableViewController.swift; sourceTree = "<group>"; };
-		9D0B3DC02CF1C6FE0095432A /* BandCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandCart.swift; sourceTree = "<group>"; };
-		9D0B3DC42CF1C72B0095432A /* BandCart.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BandCart.xib; sourceTree = "<group>"; };
-		9D0B3DC62CF267810095432A /* EditBandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBandViewController.swift; sourceTree = "<group>"; };
-		9D7194F12CF0767E00F63988 /* NSFetchRequestController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSFetchRequestController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D0B3DC02CF1C6FE0095432A /* BandCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandCardView.swift; sourceTree = "<group>"; };
+		9D0B3DC42CF1C72B0095432A /* BandCardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BandCardView.xib; sourceTree = "<group>"; };
+		9D0B3DC62CF267810095432A /* OneCardEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneCardEditorViewController.swift; sourceTree = "<group>"; };
+		9D7194F12CF0767E00F63988 /* coredata-observation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coredata-observation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D7194F42CF0767E00F63988 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D7194F62CF0767E00F63988 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9D7194F82CF0767E00F63988 /* NoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoTableViewController.swift; sourceTree = "<group>"; };
+		9D7194F82CF0767E00F63988 /* OneCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneCardViewController.swift; sourceTree = "<group>"; };
 		9D7194FB2CF0767E00F63988 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D7194FD2CF0768100F63988 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D7195002CF0768100F63988 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -69,7 +69,7 @@
 		9D7194F22CF0767E00F63988 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9D7194F12CF0767E00F63988 /* NSFetchRequestController.app */,
+				9D7194F12CF0767E00F63988 /* coredata-observation.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,29 +77,53 @@
 		9D7194F32CF0767E00F63988 /* NSFetchRequestController */ = {
 			isa = PBXGroup;
 			children = (
+				9DA50BB02D639F02002E7635 /* app */,
 				9D7194F42CF0767E00F63988 /* AppDelegate.swift */,
 				9D7194F62CF0767E00F63988 /* SceneDelegate.swift */,
 				9D71950E2CF0784100F63988 /* CoreDataStack.swift */,
-				9D0B3DBE2CF0EB440095432A /* BandsTableViewController.swift */,
-				9D7194F82CF0767E00F63988 /* NoTableViewController.swift */,
-				9D0B3DC62CF267810095432A /* EditBandViewController.swift */,
-				9D0B3DC02CF1C6FE0095432A /* BandCart.swift */,
-				9D0B3DC42CF1C72B0095432A /* BandCart.xib */,
+				9DA50BAF2D639EDC002E7635 /* oneCardScreen */,
+				9DA50BAE2D639ECB002E7635 /* tableScreen */,
 				9D7194FA2CF0767E00F63988 /* Main.storyboard */,
 				9D71950F2CF0784100F63988 /* seed.json */,
+			);
+			path = NSFetchRequestController;
+			sourceTree = "<group>";
+		};
+		9DA50BAE2D639ECB002E7635 /* tableScreen */ = {
+			isa = PBXGroup;
+			children = (
+				9D0B3DBE2CF0EB440095432A /* BandsTableViewController.swift */,
+			);
+			path = tableScreen;
+			sourceTree = "<group>";
+		};
+		9DA50BAF2D639EDC002E7635 /* oneCardScreen */ = {
+			isa = PBXGroup;
+			children = (
+				9D7194F82CF0767E00F63988 /* OneCardViewController.swift */,
+				9D0B3DC62CF267810095432A /* OneCardEditorViewController.swift */,
+				9D0B3DC02CF1C6FE0095432A /* BandCardView.swift */,
+				9D0B3DC42CF1C72B0095432A /* BandCardView.xib */,
+			);
+			path = oneCardScreen;
+			sourceTree = "<group>";
+		};
+		9DA50BB02D639F02002E7635 /* app */ = {
+			isa = PBXGroup;
+			children = (
 				9D7194FD2CF0768100F63988 /* Assets.xcassets */,
 				9D7194FF2CF0768100F63988 /* LaunchScreen.storyboard */,
 				9D7195022CF0768100F63988 /* Info.plist */,
 			);
-			path = NSFetchRequestController;
+			path = app;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9D7194F02CF0767E00F63988 /* NSFetchRequestController */ = {
+		9D7194F02CF0767E00F63988 /* coredata-observation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9D7195052CF0768100F63988 /* Build configuration list for PBXNativeTarget "NSFetchRequestController" */;
+			buildConfigurationList = 9D7195052CF0768100F63988 /* Build configuration list for PBXNativeTarget "coredata-observation" */;
 			buildPhases = (
 				9D7194ED2CF0767E00F63988 /* Sources */,
 				9D7194EE2CF0767E00F63988 /* Frameworks */,
@@ -109,9 +133,9 @@
 			);
 			dependencies = (
 			);
-			name = NSFetchRequestController;
+			name = "coredata-observation";
 			productName = NSFetchRequestController;
-			productReference = 9D7194F12CF0767E00F63988 /* NSFetchRequestController.app */;
+			productReference = 9D7194F12CF0767E00F63988 /* coredata-observation.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -129,7 +153,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9D7194EC2CF0767E00F63988 /* Build configuration list for PBXProject "NSFetchRequestController" */;
+			buildConfigurationList = 9D7194EC2CF0767E00F63988 /* Build configuration list for PBXProject "coredata-observation" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -142,7 +166,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9D7194F02CF0767E00F63988 /* NSFetchRequestController */,
+				9D7194F02CF0767E00F63988 /* coredata-observation */,
 			);
 		};
 /* End PBXProject section */
@@ -156,7 +180,7 @@
 				9D7194FE2CF0768100F63988 /* Assets.xcassets in Resources */,
 				9D7195112CF0784100F63988 /* seed.json in Resources */,
 				9D7194FC2CF0767E00F63988 /* Main.storyboard in Resources */,
-				9D0B3DC52CF1C72B0095432A /* BandCart.xib in Resources */,
+				9D0B3DC52CF1C72B0095432A /* BandCardView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,10 +195,10 @@
 				9D0B3DBD2CF0E63C0095432A /* BandDB+CoreDataProperties.swift in Sources */,
 				9D7195102CF0784100F63988 /* CoreDataStack.swift in Sources */,
 				9D71950D2CF076ED00F63988 /* MusicBandsDB.xcdatamodeld in Sources */,
-				9D7194F92CF0767E00F63988 /* NoTableViewController.swift in Sources */,
-				9D0B3DC12CF1C6FE0095432A /* BandCart.swift in Sources */,
+				9D7194F92CF0767E00F63988 /* OneCardViewController.swift in Sources */,
+				9D0B3DC12CF1C6FE0095432A /* BandCardView.swift in Sources */,
 				9D7194F52CF0767E00F63988 /* AppDelegate.swift in Sources */,
-				9D0B3DC72CF267810095432A /* EditBandViewController.swift in Sources */,
+				9D0B3DC72CF267810095432A /* OneCardEditorViewController.swift in Sources */,
 				9D0B3DBC2CF0E63C0095432A /* BandDB+CoreDataClass.swift in Sources */,
 				9D7194F72CF0767E00F63988 /* SceneDelegate.swift in Sources */,
 			);
@@ -330,7 +354,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7499ZBZAZ6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NSFetchRequestController/Info.plist;
+				INFOPLIST_FILE = NSFetchRequestController/app/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -358,7 +382,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7499ZBZAZ6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NSFetchRequestController/Info.plist;
+				INFOPLIST_FILE = NSFetchRequestController/app/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -380,7 +404,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9D7194EC2CF0767E00F63988 /* Build configuration list for PBXProject "NSFetchRequestController" */ = {
+		9D7194EC2CF0767E00F63988 /* Build configuration list for PBXProject "coredata-observation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9D7195032CF0768100F63988 /* Debug */,
@@ -389,7 +413,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9D7195052CF0768100F63988 /* Build configuration list for PBXNativeTarget "NSFetchRequestController" */ = {
+		9D7195052CF0768100F63988 /* Build configuration list for PBXNativeTarget "coredata-observation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9D7195062CF0768100F63988 /* Debug */,

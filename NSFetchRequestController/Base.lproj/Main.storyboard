@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Yam-eR-aMr">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Yam-eR-aMr">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -51,7 +51,7 @@
         <!--No Table-->
         <scene sceneID="onx-Lf-NOn">
             <objects>
-                <viewController id="wBG-Kk-ThV" customClass="NoTableViewController" customModule="NSFetchRequestController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="wBG-Kk-ThV" customClass="OneCardViewController" customModule="NSFetchRequestController" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LNS-ii-thg">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -69,7 +69,7 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0vt-rC-kY4" customClass="BandCart" customModule="NSFetchRequestController" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0vt-rC-kY4" customClass="BandCardView" customModule="NSFetchRequestController" customModuleProvider="target">
                                 <rect key="frame" x="60.666666666666657" y="282" width="272" height="288"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <constraints>
@@ -89,22 +89,22 @@
                     </view>
                     <navigationItem key="navigationItem" title="No Table" id="Xom-kP-8bu"/>
                     <connections>
-                        <outlet property="bandCartView" destination="0vt-rC-kY4" id="zrs-uo-MWC"/>
+                        <outlet property="bandCardView" destination="0vt-rC-kY4" id="xpn-3a-laO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gbb-MG-bbg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2825.1908396946565" y="606.33802816901414"/>
         </scene>
-        <!--Edit Band View Controller-->
+        <!--One Card Editor View Controller-->
         <scene sceneID="wPT-r3-dqF">
             <objects>
-                <viewController storyboardIdentifier="EditBandViewController" id="H4X-64-Y9X" customClass="EditBandViewController" customModule="NSFetchRequestController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="EditBandViewController" id="H4X-64-Y9X" customClass="OneCardEditorViewController" customModule="NSFetchRequestController" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="M32-72-UtR">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZZt-xM-adN" customClass="BandCart" customModule="NSFetchRequestController" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZZt-xM-adN" customClass="BandCardView" customModule="NSFetchRequestController" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="59" width="393" height="400"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
@@ -131,7 +131,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="bandCart" destination="ZZt-xM-adN" id="fCV-ze-NwU"/>
+                        <outlet property="bandCard" destination="ZZt-xM-adN" id="mSJ-Sm-hlQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vkV-Aq-rdS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -147,20 +147,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="fA7-ez-WG6">
-                                <rect key="frame" x="151" y="377.66666666666669" width="91" height="96.666666666666686"/>
+                                <rect key="frame" x="123.66666666666667" y="377.66666666666669" width="145.66666666666663" height="96.666666666666686"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cLO-ws-NeR">
-                                        <rect key="frame" x="0.0" y="0.0" width="91" height="34.333333333333336"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="145.66666666666666" height="34.333333333333336"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Table"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Table Editor"/>
                                         <connections>
                                             <segue destination="7zz-3d-s0n" kind="show" id="X74-2Y-UCX"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uDK-ic-CkN">
-                                        <rect key="frame" x="0.0" y="62.333333333333314" width="91" height="34.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="62.333333333333314" width="145.66666666666666" height="34.333333333333343"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="No Table"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="One Card Editor"/>
                                         <connections>
                                             <segue destination="wBG-Kk-ThV" kind="show" id="mLM-dP-yKM"/>
                                         </connections>

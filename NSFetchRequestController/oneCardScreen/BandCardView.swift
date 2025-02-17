@@ -8,7 +8,7 @@
 import UIKit
 import Combine
 
-class BandCart: UIView {
+class BandCardView: UIView {
     
     @IBOutlet weak var name: UILabel!
     @IBOutlet weak var genreInput: UITextField!
@@ -38,7 +38,7 @@ class BandCart: UIView {
     
     private func commonInit() {
         
-        let nib = Bundle.main.loadNibNamed(String(describing: BandCart.self), owner: self, options: nil)
+        let nib = Bundle.main.loadNibNamed(String(describing: BandCardView.self), owner: self, options: nil)
         if let contentView = nib?.first as? UIView {
             contentView.translatesAutoresizingMaskIntoConstraints = false
             addSubview(contentView)
