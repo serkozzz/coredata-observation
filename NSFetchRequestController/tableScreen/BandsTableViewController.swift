@@ -45,7 +45,7 @@ class BandsTableViewController: UITableViewController {
         } catch let error as NSError {
             print("Fetching error: \(error), \(error.userInfo)")
         }
-        tableView.register(CustomCell.self, forCellReuseIdentifier: "myCell")
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "myCell")
     }
     
     // MARK: - Table view data source
@@ -64,14 +64,14 @@ class BandsTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath) as! CustomCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath)
         
         // Configure the cell...
         configure(cell: cell, at: indexPath)
         return cell
     }
     
-    private func configure(cell: CustomCell, at indexPath: IndexPath) {
+    private func configure(cell: UITableViewCell, at indexPath: IndexPath) {
         let item = fetchedResultsController.object(at: indexPath)
         var cfg = cell.defaultContentConfiguration()
         cfg.text = item.name
@@ -98,7 +98,7 @@ extension BandsTableViewController : NSFetchedResultsControllerDelegate {
         case .delete:
             tableView.deleteRows(at: [indexPath!], with: .automatic)
         case .update:
-            let cell = tableView.cellForRow(at: indexPath!) as! CustomCell
+            let cell = tableView.cellForRow(at: indexPath!)!
             configure(cell: cell, at: indexPath!)
         case .move:
             tableView.deleteRows(at: [indexPath!], with: .automatic)
@@ -166,13 +166,3 @@ extension BandsTableViewController {
     
 }
 
-
-
-class CustomCell: UITableViewCell {
-    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
-        super.init(style: .value1, reuseIdentifier: reuseIdentifier)
-    }
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-}

@@ -11,7 +11,7 @@
         <!--Title-->
         <scene sceneID="lWB-OE-o3U">
             <objects>
-                <tableViewController id="7zz-3d-s0n" customClass="BandsTableViewController" customModule="NSFetchRequestController" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="7zz-3d-s0n" customClass="BandsTableViewController" customModule="coredata_observation" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" estimatedSectionHeaderHeight="-1" sectionFooterHeight="28" estimatedSectionFooterHeight="-1" id="7JB-H9-Lr3">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -51,7 +51,7 @@
         <!--No Table-->
         <scene sceneID="onx-Lf-NOn">
             <objects>
-                <viewController id="wBG-Kk-ThV" customClass="OneCardViewController" customModule="NSFetchRequestController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="wBG-Kk-ThV" customClass="OneCardViewController" customModule="coredata_observation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LNS-ii-thg">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -69,7 +69,7 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0vt-rC-kY4" customClass="BandCardView" customModule="NSFetchRequestController" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0vt-rC-kY4" customClass="BandCardView" customModule="coredata_observation" customModuleProvider="target">
                                 <rect key="frame" x="60.666666666666657" y="282" width="272" height="288"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <constraints>
@@ -99,12 +99,12 @@
         <!--One Card Editor View Controller-->
         <scene sceneID="wPT-r3-dqF">
             <objects>
-                <viewController storyboardIdentifier="EditBandViewController" id="H4X-64-Y9X" customClass="OneCardEditorViewController" customModule="NSFetchRequestController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="EditBandViewController" id="H4X-64-Y9X" customClass="OneCardEditorViewController" customModule="coredata_observation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="M32-72-UtR">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZZt-xM-adN" customClass="BandCardView" customModule="NSFetchRequestController" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZZt-xM-adN" customClass="BandCardView" customModule="coredata_observation" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="59" width="393" height="400"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
