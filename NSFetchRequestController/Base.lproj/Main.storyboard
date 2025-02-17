@@ -136,7 +136,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vkV-Aq-rdS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3651" y="606"/>
+            <point key="canvasLocation" x="3859" y="186"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="78R-OJ-MBP">
@@ -147,20 +147,24 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="fA7-ez-WG6">
-                                <rect key="frame" x="123.66666666666667" y="377.66666666666669" width="145.66666666666663" height="96.666666666666686"/>
+                                <rect key="frame" x="94.000000000000014" y="355" width="205.33333333333337" height="142"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cLO-ws-NeR">
-                                        <rect key="frame" x="0.0" y="0.0" width="145.66666666666666" height="34.333333333333336"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="205.33333333333334" height="57"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Table Editor"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Table Editor" subtitle="(NSFetchedResultsController)">
+                                            <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle2"/>
+                                        </buttonConfiguration>
                                         <connections>
                                             <segue destination="7zz-3d-s0n" kind="show" id="X74-2Y-UCX"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uDK-ic-CkN">
-                                        <rect key="frame" x="0.0" y="62.333333333333314" width="145.66666666666666" height="34.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="85" width="205.33333333333334" height="57"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="One Card Editor"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="One Card Editor" subtitle="(objectWillChange)">
+                                            <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle2"/>
+                                        </buttonConfiguration>
                                         <connections>
                                             <segue destination="wBG-Kk-ThV" kind="show" id="mLM-dP-yKM"/>
                                         </connections>

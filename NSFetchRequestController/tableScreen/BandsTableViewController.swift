@@ -75,9 +75,20 @@ class BandsTableViewController: UITableViewController {
         let item = fetchedResultsController.object(at: indexPath)
         var cfg = cell.defaultContentConfiguration()
         cfg.text = item.name
-        cfg.secondaryText = item.genre
+        cfg.secondaryText = "\(item.genre!), \(item.country!)"
         cell.contentConfiguration = cfg
     }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let editBandVC = (storyboard.instantiateViewController(withIdentifier: "EditBandViewController") as! OneCardEditorViewController)
+        
+        let band = fetchedResultsController.object(at: indexPath)
+        editBandVC.band = band
+        
+        self.present(editBandVC, animated: true)
+    }
+    
     @IBAction func addBandtap(_ sender: Any) {
         addBands()
     }
@@ -98,13 +109,13 @@ extension BandsTableViewController : NSFetchedResultsControllerDelegate {
         case .delete:
             tableView.deleteRows(at: [indexPath!], with: .automatic)
         case .update:
+            print("update")
             let cell = tableView.cellForRow(at: indexPath!)!
             configure(cell: cell, at: indexPath!)
         case .move:
             tableView.deleteRows(at: [indexPath!], with: .automatic)
             tableView.insertRows(at: [newIndexPath!], with: .automatic)
         }
-        
     }
     
     func controllerDidChangeContent(_ controller: NSFetchedResultsController<NSFetchRequestResult>) {
